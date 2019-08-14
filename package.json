@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/fadalyz11/Karma-Todo#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongodb": "^3.3.0",
+    "nodemon": "^1.19.1"
   }
 }

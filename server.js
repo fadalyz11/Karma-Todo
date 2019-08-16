@@ -12,7 +12,7 @@ if (port == null || port == "") {
 app.use(express.static("public"));
 
 let connectionString =
-  "mongodb+srv:KarmaDev:karmaDev@cluster0-g3czz.mongodb.net/karma";
+  "mongodb+srv:KarmaDev:KarmaDev@cluster0-g3czz.mongodb.net/KarmaDev-App?retryWrites=true&w=majority";
 mongodb.connect(
   connectionString,
   { useNewUrlParser: true },

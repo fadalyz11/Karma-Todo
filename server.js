@@ -11,7 +11,8 @@ if (port == null || port == "") {
 }
 app.use(express.static("public"));
 
-let connectionString = "mongodb://localhost/KarmaDev-app";
+let connectionString =
+  "mongodb+srv:KarmaDev:karmaDev@cluster0-g3czz.mongodb.net/karma";
 mongodb.connect(
   connectionString,
   { useNewUrlParser: true },

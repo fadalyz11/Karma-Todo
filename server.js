@@ -15,7 +15,8 @@ let connectionString = "mongodb://localhost/KarmaDev-app";
 
 mongodb.connect(
   connectionString,
-  { useNewUrlParser: true },
+  { useNewUrlParser: true, useUnifiedTopology: true },
+
   function(err, client) {
     db = client.db();
     app.listen(port);
